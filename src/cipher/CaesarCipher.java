@@ -25,17 +25,25 @@ public class CaesarCipher {
         return result.toString();
     }
 
+    /**
+     * Deciphers the message.
+     * @param message
+     * @param offset
+     * @return
+     */
+     public String decipher(String message, int offset){
+        return cipher(message, 26 - (offset % 26));
+     }
+
+
+
+
     public static void main(String[] args){
 //        Testing the encryption process of the Caesar cipher
         CaesarCipher cipher = new CaesarCipher();
 
         String cipheredMessage = cipher.cipher("he told me i could never teach a llama to drive", 3);
         System.out.println(cipheredMessage);
-
-
-
-
-
     }
 
 

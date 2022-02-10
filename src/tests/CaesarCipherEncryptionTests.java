@@ -32,4 +32,13 @@ public class CaesarCipherEncryptionTests {
         assertEquals(cipheredMessage, expectedResult);
     }
 
+    @Test
+    public void testCaesarCipher_004(){
+        CaesarCipher cipher = new CaesarCipher();
+        String cipheredMessage = cipher.cipher("scuderia ferrari", 16);
+        String expectedResult = "isktuhyq vuhhqhy";
+
+        assertEquals(cipheredMessage, expectedResult);
+    }
+
 }
