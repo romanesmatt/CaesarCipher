@@ -1,4 +1,4 @@
-import java.*;
+package cipher;
 
 
 public class CaesarCipher {

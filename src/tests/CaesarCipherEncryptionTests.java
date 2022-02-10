@@ -1,6 +1,8 @@
+package tests;
+
+import cipher.CaesarCipher;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import java.*;
 
 public class CaesarCipherEncryptionTests {
     @Test
