@@ -5,6 +5,10 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class CaesarCipherEncryptionTests {
+
+    /**
+     * Testing the encryption of a given sentence with an offset of 3.
+     */
     @Test
     public void testCaesarCipher_001(){
         CaesarCipher cipher = new CaesarCipher();
@@ -14,6 +18,10 @@ public class CaesarCipherEncryptionTests {
         assertEquals(cipheredMessage, expectedResult);
     }
 
+
+    /**
+     * Testing the encryption of a given sentence with an offset of 4.
+     */
     @Test
     public void testCaesarCipher_002(){
         CaesarCipher cipher = new CaesarCipher();
@@ -23,6 +31,9 @@ public class CaesarCipherEncryptionTests {
         assertEquals(cipheredMessage, expectedResult);
     }
 
+    /**
+     * Testing the encryption of a given sentence with an offset of 11.
+     */
     @Test
     public void testCaesarCipher_003(){
         CaesarCipher cipher = new CaesarCipher();
@@ -32,6 +43,9 @@ public class CaesarCipherEncryptionTests {
         assertEquals(cipheredMessage, expectedResult);
     }
 
+    /**
+     * Testing the encryption of a given sentence with an offset of 16.
+     */
     @Test
     public void testCaesarCipher_004(){
         CaesarCipher cipher = new CaesarCipher();
