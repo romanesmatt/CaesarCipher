@@ -15,6 +15,6 @@ The Caesar Cipher is a substitution cipher, meaning it will replace a plaintext 
 The project has two methods for breaking the cipher: breakCipher() and chiSquares(). In this project, the cipher is broken using the Chi-squared statistic on the assumption that as the attacker, it does not know what the offset is. The Chi-squared statistic will provide a number telling us whether two distributions are similar or not. The smaller the number, the more similar they are.
  
  ## Running the Project
- The project has no main method to run it. Instead, it uses a series of JUnit tests to run encryption, decryption and breaking of the cipher respectively. Each method is commented to reflect the test being conducted.
+ The project has no main method to run it. Instead, it uses a series of JUnit tests to run encryption, decryption and breaking of the cipher respectively. Each method inclues Javadoc comments to reflect the test being conducted.
  
  
